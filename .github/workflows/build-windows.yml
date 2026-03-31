@@ -23,7 +23,7 @@ jobs:
 
       - name: Build exe with PyInstaller
         run: |
-          pyinstaller --onefile --name filter_credit_card_to_xlsx filter_credit_card_to_xlsx.py
+          pyinstaller --onefile --name filter_credit_card filter_credit_card.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
